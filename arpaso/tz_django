@@ -1,0 +1,39 @@
+1. Create django project.
+You might use zc.buildout.
+Create profile app (first name, last name, data of birth, biography, contacts)
+ Add front page, where you'll show your profile datas. (use fixtures)
+2. Add authentication of this page
+3. Create middleware, that stores all database requests.
+4. Create template context processor that add django.conf.settings to context
+5. Create a page where you may change your profile
+6. forms-widgets - assign calendar widget to "date of birth" field.
+7. forms-model-extra - (edit profile form has been done with
+forms.ModelForm? ;)
+ * invert field's order
+8. template-tags - create template tag, that gets any model object,
+and renders a link of change view in admin interface ( for example: {%
+edit_list request.user %})
+9. commands - create django command that prints all models and object counts.
+ 10. signals - create signal handler, that creates a note in database
+when every model is creating/editing/deleting.
+
+
+
+1. Создайте Django проекта.
+Вы можете использовать zc.buildout.
+Создать анкету приложения (имя, фамилия, данные рождения, биография, контакты)
+Добавить главная страница, где вы будете показывать вашу ДАННЫЕ профиля. (использование приборов)
+2. Добавить аутентификации этой страницы
+3. Создать промежуточное, которая хранит все запросы к базе данных.
+4. Создать шаблон контекста процессора, которые добавляют в контекстное django.conf.settings
+5. Создать страницу, где вы можете изменить ваш профиль
+6. форм-виджетов - назначить виджет календаря "дата рождения" поле.
+7. форм-модель-экстра - (редактирование профиля форме это было сделано в
+forms.ModelForm? ;)
+* Инвертировать порядок поля
+8. шаблон-теги - создать шаблон тег, который получает любой модели объекта,
+и делает ссылку изменения зрения в интерфейсе администратора (например: {%
+edit_list request.user%})
+9. команд - создать Django команду, которая печатает все модели и объекта имеет значение.
+10. Сигналы - создать обработчик сигнала, который создает запись в базе данных
+, когда каждая модель создания / редактирования / удаления.

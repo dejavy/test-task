@@ -1,0 +1,57 @@
+start projekt*************************************************
+django-admin.py startproject megaproject                Создаем проэкт
+python manage.py startapp gigaapp                       Создаем апликуху
+python manage.py runserver                              Запуск проекта
+python manage.py syncdb                                 Синхронизация базы
+**************************************************************
+models********************************************************
+from django.db import models                            Главный импорт
+**************************************************************
+admin*********************************************************
+from django.contrib import admin                        Импорт для админки
+**************************************************************
+servak********************************************************
+source /var/www/django-project/virtualenv/bin/activate  Когда меняешь код делай
+touch /var/www/django-project/django.wsgi               чтоб изменения вошли в силу
+./manage.py collectstatic                               если чтото меняеш в папке /ststic/
+sudo chown dejavy /var/www/django-project -R            меняем пользователя
+sudo chmod                                              меняем права
+https://dynamic-77-122-171-050.ricona.net.ua:10000/
+**************************************************************
+git***********************************************************
+git reset --hard                                        Сброс мастер ветки
+******git clone******
+На серваке:
+    cd /var/www/django-project/medpromkapital
+    git init
+    git add ./
+    git commit -m "First commit"
+На ноуте:
+    cd /my/projects/folder/
+    git clone ssh://77.122.171.50/var/www/django-project/medpromkapital
+******git commit******
+на ноуте с сервака
+git add ./                                              Добавить весь проэкт
+git commit -m "..."                                     Коментарий
+git push                                                Отправить (можно указать куда)
+******git push******
+git push ssh://77.122.171.50/var/www/django-project/medpromkapital
+**************************************************************
+settings******************************************************
+ В settings.py в самом конце (всегда должно быть в конце)
+try:
+    from local_settings import *
+except ImportError:
+    pass
+
+В .gitignore добавь:
+local_settings.py
+
+url*************************************************************
+[21:24:55 EEST] Oleg Bondarenko: В шаблоне будет что то типа:
+<a href="{% url about_us %}">о нас</a>....
+[21:28:21 EEST] Oleg Bondarenko: url(r'^about_us/', 'root.views.about', name='about_us'),
+
+thumbnail*******************************************************
+python manage.py thumbnail cleanup
+python manage.py thumbnail clear
