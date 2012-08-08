@@ -1,1 +1,19 @@
-lwekdfjjf;l
+{% extends "base.html" %}
+{% block content %}
+<div class="home_text">
+
+
+
+{% for users in usershtml %}
+    <p>{{ users.full_name }}</p>
+    <p>{{ users.last_name }}</p>
+    <p>{{ users.birth_date }}</p>
+    <p>{{ users.biography }}</p>
+    <p>{{ users.contacts }}</p>
+	<p></p>
+	<p></p>
+
+</div>
+{% endfor %}
+<a href="/accounts/logout/" class="btn small primary">Выйти</a>
+{% endblock %}
