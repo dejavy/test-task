@@ -13,19 +13,19 @@ from django.contrib.auth.views import login, logout
 
 from django.db import connection
 
-
-from .models import Users
+from .models import Users, UserProfile
+from .forms import CustomUserChangeForm, UserProfileForm
 
 @login_required
 def home(request, template='home.html'):
-	users = Users.objects.all()
-	#print users, connection.queries
-	return TemplateResponse(request, template, {'usershtml': users})
+    users = Users.objects.all()
+    #print users, connection.queries
+    return TemplateResponse(request, template, {'usershtml': users})
 
 def settings(request, template='settings.html'):
     return TemplateResponse(request, template, {})
 
-def password(request, template='registration/change.html'):
+def password(request, template='registration/change_pass.html'):
     if request.method == 'POST':
         form = PasswordChangeForm(request.user, request.POST)
         if form.is_valid():
@@ -37,18 +37,25 @@ def password(request, template='registration/change.html'):
     return TemplateResponse(request, template, {'form': form,})
 
 
-def edit(request, template='registration/change.html'):
+def edit(request, template='registration/change_prof.html'):
     if request.method == 'POST':
         user = User.objects.get(username=request.user)
-        form = UserChangeForm(request.POST, instance=user)
-        if form.is_valid():
+        userprofile = UserProfile.objects.get(user=request.user)
+        form = CustomUserChangeForm(request.POST, instance=user)
+        form1 = UserProfileForm(request.POST, instance=userprofile)
+        if form.is_valid() and form1.is_valid():
             form.save()
+            form1.save()
             return HttpResponseRedirect("/")
     else:
-        print request.user
         user = User.objects.get(username=request.user)
-        form = UserChangeForm(instance=user)
-    return TemplateResponse(request, template, {'form': form,})
+        userprofile = UserProfile.objects.get(user=request.user)
+        form = CustomUserChangeForm(instance=user)
+        form1 = UserProfileForm(instance=userprofile)
+        print userprofile.user
+        print userprofile.biography
+        print form1
+    return TemplateResponse(request, template, {'form': form, 'form1':form1})
 
 def registration(request, template='registration/register.html'):
     if request.method == 'POST':
