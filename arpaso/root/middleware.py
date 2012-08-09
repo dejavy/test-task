@@ -6,10 +6,10 @@ import datetime
 class SQLLogMiddleware:
 
     def process_response ( self, request, response ): 
+        file = open('./workfile.log', 'a')
         if connection.queries:
-            file = open('./workfile.log', 'a')
             file.write(str(datetime.datetime.now()) + ' \n' + ' \n')
             for sql in connection.queries:
                 file.write(sql['sql'] + ' \n' + ' \n')
-        file.close()
+    	file.close()
         return response

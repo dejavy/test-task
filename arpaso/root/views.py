@@ -1,7 +1,8 @@
 #coding: utf8
+from django.template import RequestContext
 from django.template.response import TemplateResponse
 from django.http import HttpResponse, HttpResponseRedirect
-from django.shortcuts import redirect, render_to_response
+from django.shortcuts import redirect
 
 from django import forms
 from django.contrib import auth
@@ -20,6 +21,9 @@ def home(request, template='home.html'):
 	users = Users.objects.all()
 	#print users, connection.queries
 	return TemplateResponse(request, template, {'usershtml': users})
+
+def settings(request, template='settings.html'):
+    return TemplateResponse(request, template, {})
 
 def registration(request, template='registration/register.html'):
     if request.method == 'POST':

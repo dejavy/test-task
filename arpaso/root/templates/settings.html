@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="home_text">
+
+{{settings.DATABASES}}<p/>
+{{settings.INSTALLED_APPS}}<p/>
+{{settings.DEBUG}}<p/>
+
+<p><a href="/" class="btn small primary">Home</a></p>
+{% endblock %}
