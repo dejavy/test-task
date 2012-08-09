@@ -10,6 +10,3 @@ class LoginForm(ModelForm):
 
     def __init__(self, *args, **kwargs):
         super(LoginForm, self).__init__(*args, **kwargs)
-
-        self.fields['username'].widget=forms.TextInput()
-    	self.fields['password'].widget=forms.PasswordInput()

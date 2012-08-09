@@ -120,3 +120,1050 @@ SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth
  
 SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
  
+2012-08-08 19:14:26.087921 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 223381ac97e3ffbe7767ec12449d98f5  AND "django_session"."expire_date" > 2012-08-08 19:14:26.000529 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 19:31:26.372371 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 19:37:19.055481 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 223381ac97e3ffbe7767ec12449d98f5  AND "django_session"."expire_date" > 2012-08-08 19:37:19.020538 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 19:37:23.394823 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 19:38:29.673227 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 19:38:35.031068 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 223381ac97e3ffbe7767ec12449d98f5  AND "django_session"."expire_date" > 2012-08-08 19:38:34.990271 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 19:38:40.400468 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 223381ac97e3ffbe7767ec12449d98f5  AND "django_session"."expire_date" > 2012-08-08 19:38:39.704395 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 3  
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 223381ac97e3ffbe7767ec12449d98f5  
+ 
+DELETE FROM "django_session" WHERE "session_key" IN (223381ac97e3ffbe7767ec12449d98f5) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 8a072ddae1daf25f17eddc3b5a359963  
+ 
+INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (8a072ddae1daf25f17eddc3b5a359963, ZTY5YTI1N2U5YzY0OGM4ZDU2MDY0MTcyMjNiMDQ5OGY1ODA2MjI1ZDqAAn1xAS4=
+, 2012-08-22 19:38:40.082418) 
+ 
+2012-08-08 19:38:40.685920 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 8a072ddae1daf25f17eddc3b5a359963  AND "django_session"."expire_date" > 2012-08-08 19:38:40.670852 ) 
+ 
+2012-08-08 19:38:40.786574 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 8a072ddae1daf25f17eddc3b5a359963  AND "django_session"."expire_date" > 2012-08-08 19:38:40.730997 ) 
+ 
+SELECT "django_site"."id", "django_site"."domain", "django_site"."name" FROM "django_site" WHERE "django_site"."id" = 1  
+ 
+2012-08-08 19:39:09.149230 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lol  
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 8a072ddae1daf25f17eddc3b5a359963  AND "django_session"."expire_date" > 2012-08-08 19:39:08.136251 ) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 26a260cd6ad566ea83be9fbda6a90901  
+ 
+INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (26a260cd6ad566ea83be9fbda6a90901, NWZiNjc4NTVlYWIxZmJjNmY1OGNhYjFkMDRhODE3ZTliMjkzODUzNzqAAn1xAVUKdGVzdGNvb2tp
+ZVUGd29ya2Vkcy4=
+, 2012-08-22 19:39:08.149281) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 8a072ddae1daf25f17eddc3b5a359963  
+ 
+DELETE FROM "django_session" WHERE "session_key" IN (8a072ddae1daf25f17eddc3b5a359963) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 2  LIMIT 1 
+ 
+UPDATE "auth_user" SET "username" = lol, "first_name" = , "last_name" = , "email" = , "password" = sha1$13dab$27488b626da0163554189fd02a21cd259e9c34f7, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-08 19:39:08.877434, "date_joined" = 2012-08-07 21:30:25.803289 WHERE "auth_user"."id" = 2  
+ 
+2012-08-08 19:39:09.471756 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 26a260cd6ad566ea83be9fbda6a90901  AND "django_session"."expire_date" > 2012-08-08 19:39:09.427627 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 19:39:21.241116 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 19:47:51.581684 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 26a260cd6ad566ea83be9fbda6a90901  AND "django_session"."expire_date" > 2012-08-08 19:47:51.527541 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 19:48:07.128077 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 19:49:16.184758 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 26a260cd6ad566ea83be9fbda6a90901  AND "django_session"."expire_date" > 2012-08-08 19:49:15.058824 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" LIMIT 21 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" LIMIT 21 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" LIMIT 21 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" LIMIT 21 
+ 
+2012-08-08 19:50:16.587778 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 1  
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 1  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 19:50:51.395947 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 26a260cd6ad566ea83be9fbda6a90901  AND "django_session"."expire_date" > 2012-08-08 19:50:51.243837 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 1  
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 1  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 19:51:40.981860 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 26a260cd6ad566ea83be9fbda6a90901  AND "django_session"."expire_date" > 2012-08-08 19:51:40.793509 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lol  
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 2  
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 2  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 19:54:48.816129 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 26a260cd6ad566ea83be9fbda6a90901  AND "django_session"."expire_date" > 2012-08-08 19:54:48.653569 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lol  
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 2  
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 2  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 19:55:15.729041 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 26a260cd6ad566ea83be9fbda6a90901  AND "django_session"."expire_date" > 2012-08-08 19:55:15.015317 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+2012-08-08 20:10:47.198276 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 26a260cd6ad566ea83be9fbda6a90901  AND "django_session"."expire_date" > 2012-08-08 20:10:47.136475 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+2012-08-08 20:17:18.365465 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 26a260cd6ad566ea83be9fbda6a90901  AND "django_session"."expire_date" > 2012-08-08 20:17:18.337813 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 20:17:22.872248 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 26a260cd6ad566ea83be9fbda6a90901  AND "django_session"."expire_date" > 2012-08-08 20:17:22.533975 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 26a260cd6ad566ea83be9fbda6a90901  
+ 
+DELETE FROM "django_session" WHERE "session_key" IN (26a260cd6ad566ea83be9fbda6a90901) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 41c9b9e67d6e3a8942be20b5790ac22e  
+ 
+INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (41c9b9e67d6e3a8942be20b5790ac22e, ZTY5YTI1N2U5YzY0OGM4ZDU2MDY0MTcyMjNiMDQ5OGY1ODA2MjI1ZDqAAn1xAS4=
+, 2012-08-22 20:17:22.743522) 
+ 
+2012-08-08 20:17:23.254374 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 41c9b9e67d6e3a8942be20b5790ac22e  AND "django_session"."expire_date" > 2012-08-08 20:17:23.243679 ) 
+ 
+2012-08-08 20:17:23.367535 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 41c9b9e67d6e3a8942be20b5790ac22e  AND "django_session"."expire_date" > 2012-08-08 20:17:23.299904 ) 
+ 
+SELECT "django_site"."id", "django_site"."domain", "django_site"."name" FROM "django_site" WHERE "django_site"."id" = 1  
+ 
+2012-08-08 20:17:33.687815 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lol  
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 41c9b9e67d6e3a8942be20b5790ac22e  AND "django_session"."expire_date" > 2012-08-08 20:17:32.920486 ) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  
+ 
+INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (a61f786c194d4cb5bd4000012ebeb617, NWZiNjc4NTVlYWIxZmJjNmY1OGNhYjFkMDRhODE3ZTliMjkzODUzNzqAAn1xAVUKdGVzdGNvb2tp
+ZVUGd29ya2Vkcy4=
+, 2012-08-22 20:17:32.932421) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 41c9b9e67d6e3a8942be20b5790ac22e  
+ 
+DELETE FROM "django_session" WHERE "session_key" IN (41c9b9e67d6e3a8942be20b5790ac22e) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 2  LIMIT 1 
+ 
+UPDATE "auth_user" SET "username" = lol, "first_name" = , "last_name" = , "email" = , "password" = sha1$13dab$27488b626da0163554189fd02a21cd259e9c34f7, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-08 20:17:33.424596, "date_joined" = 2012-08-07 21:30:25.803289 WHERE "auth_user"."id" = 2  
+ 
+2012-08-08 20:17:34.018140 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  AND "django_session"."expire_date" > 2012-08-08 20:17:33.974498 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 20:17:39.780518 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  AND "django_session"."expire_date" > 2012-08-08 20:17:39.640834 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lol  
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 2  
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 2  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 20:17:43.700647 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  AND "django_session"."expire_date" > 2012-08-08 20:17:43.668782 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+2012-08-08 20:18:41.177509 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  AND "django_session"."expire_date" > 2012-08-08 20:18:41.144464 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 20:18:47.008337 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  AND "django_session"."expire_date" > 2012-08-08 20:18:46.888394 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lol  
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 2  
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 2  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 20:18:56.474924 
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."username" = lollol  LIMIT 1 
+ 
+INSERT INTO "auth_user" ("username", "first_name", "last_name", "email", "password", "is_staff", "is_active", "is_superuser", "last_login", "date_joined") VALUES (lollol, , , , sha1$13dab$27488b626da0163554189fd02a21cd259e9c34f7, False, True, False, 2012-08-08 20:17:33, 2012-08-07 21:30:25) 
+ 
+SELECT "auth_user_groups"."id", "auth_user_groups"."user_id", "auth_user_groups"."group_id" FROM "auth_user_groups" WHERE "auth_user_groups"."user_id" = 4  
+ 
+SELECT "auth_user_user_permissions"."id", "auth_user_user_permissions"."user_id", "auth_user_user_permissions"."permission_id" FROM "auth_user_user_permissions" WHERE "auth_user_user_permissions"."user_id" = 4  
+ 
+2012-08-08 20:18:56.583152 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  AND "django_session"."expire_date" > 2012-08-08 20:18:56.504180 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 20:19:05.745757 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  AND "django_session"."expire_date" > 2012-08-08 20:19:05.716730 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 20:19:09.702271 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  AND "django_session"."expire_date" > 2012-08-08 20:19:09.631688 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 20:19:13.598263 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  AND "django_session"."expire_date" > 2012-08-08 20:19:13.499426 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lol  
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 2  
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 2  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 20:20:08.088920 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  AND "django_session"."expire_date" > 2012-08-08 20:20:06.790491 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lol  
+ 
+2012-08-08 20:21:13.395394 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  AND "django_session"."expire_date" > 2012-08-08 20:21:13.259503 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lol  
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 2  
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 2  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 20:21:29.938285 
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."username" = lollol  LIMIT 1 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 20:22:03.101025 
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."username" = lollol1  LIMIT 1 
+ 
+INSERT INTO "auth_user" ("username", "first_name", "last_name", "email", "password", "is_staff", "is_active", "is_superuser", "last_login", "date_joined") VALUES (lollol1, , , , sha1$13dab$27488b626da0163554189fd02a21cd259e9c34f7, False, True, False, 2012-08-08 20:17:33, 2012-08-07 21:30:25) 
+ 
+SELECT "auth_user_groups"."id", "auth_user_groups"."user_id", "auth_user_groups"."group_id" FROM "auth_user_groups" WHERE "auth_user_groups"."user_id" = 5  
+ 
+SELECT "auth_user_user_permissions"."id", "auth_user_user_permissions"."user_id", "auth_user_user_permissions"."permission_id" FROM "auth_user_user_permissions" WHERE "auth_user_user_permissions"."user_id" = 5  
+ 
+2012-08-08 20:22:03.178298 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  AND "django_session"."expire_date" > 2012-08-08 20:22:03.123768 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 20:22:21.902658 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  AND "django_session"."expire_date" > 2012-08-08 20:22:21.828464 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 20:22:37.093506 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  AND "django_session"."expire_date" > 2012-08-08 20:22:36.989729 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lol  
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 2  
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 2  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 20:22:46.503223 
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."username" = lollol1  LIMIT 1 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 20:23:00.858860 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  AND "django_session"."expire_date" > 2012-08-08 20:23:00.466814 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "django_site"."id", "django_site"."domain", "django_site"."name" FROM "django_site" WHERE "django_site"."id" = 1  
+ 
+SELECT "auth_message"."id", "auth_message"."user_id", "auth_message"."message" FROM "auth_message" WHERE "auth_message"."user_id" = 2  
+ 
+2012-08-08 20:23:12.590644 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  AND "django_session"."expire_date" > 2012-08-08 20:23:11.632661 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = dejavy  
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = a61f786c194d4cb5bd4000012ebeb617  
+ 
+DELETE FROM "django_session" WHERE "session_key" IN (a61f786c194d4cb5bd4000012ebeb617) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  
+ 
+INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (11b0ae97b890568c2ccffacda6279218, ZTY5YTI1N2U5YzY0OGM4ZDU2MDY0MTcyMjNiMDQ5OGY1ODA2MjI1ZDqAAn1xAS4=
+, 2012-08-22 20:23:12.169443) 
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 1  LIMIT 1 
+ 
+UPDATE "auth_user" SET "username" = dejavy, "first_name" = , "last_name" = , "email" = dejavy@inbox.ru, "password" = sha1$6dc5c$734afc3d5e9fb62a9834a57b01b2df5932f4a83a, "is_staff" = True, "is_active" = True, "is_superuser" = True, "last_login" = 2012-08-08 20:23:12.343419, "date_joined" = 2012-08-07 08:34:54.774724 WHERE "auth_user"."id" = 1  
+ 
+2012-08-08 20:23:13.165258 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:23:12.854703 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT "auth_message"."id", "auth_message"."user_id", "auth_message"."message" FROM "auth_message" WHERE "auth_message"."user_id" = 1  
+ 
+SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1  ORDER BY "django_admin_log"."action_time" DESC LIMIT 10 
+ 
+2012-08-08 20:23:22.892739 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:23:22.509009 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT COUNT(*) FROM "root_users" 
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" ORDER BY "root_users"."id" DESC 
+ 
+SELECT "auth_message"."id", "auth_message"."user_id", "auth_message"."message" FROM "auth_message" WHERE "auth_message"."user_id" = 1  
+ 
+2012-08-08 20:23:23.237463 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:23:23.064781 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+2012-08-08 20:23:37.620931 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:23:37.367298 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT COUNT(*) FROM "auth_user" 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" ORDER BY "auth_user"."username" ASC 
+ 
+SELECT "auth_message"."id", "auth_message"."user_id", "auth_message"."message" FROM "auth_message" WHERE "auth_message"."user_id" = 1  
+ 
+2012-08-08 20:23:37.758441 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:23:37.719840 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+2012-08-08 20:23:53.139281 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:23:52.979183 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT COUNT(*) FROM "auth_user" 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" IN (4, 5, 3) ORDER BY "auth_user"."username" ASC 
+ 
+SELECT "auth_message"."id", "auth_message"."user_id", "auth_message"."message", "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_message" INNER JOIN "auth_user" ON ("auth_message"."user_id" = "auth_user"."id") WHERE "auth_message"."user_id" IN (4, 5, 3) 
+ 
+SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") WHERE "django_admin_log"."user_id" IN (4, 5, 3) ORDER BY "django_admin_log"."action_time" DESC 
+ 
+SELECT "auth_message"."id", "auth_message"."user_id", "auth_message"."message" FROM "auth_message" WHERE "auth_message"."user_id" = 1  
+ 
+2012-08-08 20:23:56.795288 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:23:56.191434 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT COUNT(*) FROM "auth_user" 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" IN (4, 5, 3) ORDER BY "auth_user"."username" ASC 
+ 
+SELECT "auth_message"."id", "auth_message"."user_id", "auth_message"."message", "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_message" INNER JOIN "auth_user" ON ("auth_message"."user_id" = "auth_user"."id") WHERE "auth_message"."user_id" IN (4, 5, 3) 
+ 
+SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") WHERE "django_admin_log"."user_id" IN (4, 5, 3) ORDER BY "django_admin_log"."action_time" DESC 
+ 
+SELECT "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."model" = user  AND "django_content_type"."app_label" = auth ) 
+ 
+INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES (2012-08-08 20:23:56.263354, 1, 3, 4, lollol, 3, ) 
+ 
+INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES (2012-08-08 20:23:56.400431, 1, 3, 5, lollol1, 3, ) 
+ 
+INSERT INTO "django_admin_log" ("action_time", "user_id", "content_type_id", "object_id", "object_repr", "action_flag", "change_message") VALUES (2012-08-08 20:23:56.512509, 1, 3, 3, test, 3, ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" IN (4, 5, 3) 
+ 
+SELECT "auth_message"."id", "auth_message"."user_id", "auth_message"."message" FROM "auth_message" WHERE "auth_message"."user_id" IN (3, 4, 5) 
+ 
+SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message" FROM "django_admin_log" WHERE "django_admin_log"."user_id" IN (3, 4, 5) ORDER BY "django_admin_log"."action_time" DESC 
+ 
+DELETE FROM "auth_user_groups" WHERE "user_id" IN (3, 4, 5) 
+ 
+DELETE FROM "auth_user_user_permissions" WHERE "user_id" IN (3, 4, 5) 
+ 
+DELETE FROM "auth_user" WHERE "id" IN (5, 4, 3) 
+ 
+2012-08-08 20:23:57.139202 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:23:56.859067 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT COUNT(*) FROM "auth_user" 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" ORDER BY "auth_user"."username" ASC 
+ 
+SELECT "auth_message"."id", "auth_message"."user_id", "auth_message"."message" FROM "auth_message" WHERE "auth_message"."user_id" = 1  
+ 
+2012-08-08 20:23:57.263201 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:23:57.218630 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+2012-08-08 20:24:04.927134 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:24:04.888917 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 20:24:09.951601 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:24:09.829912 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = dejavy  
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 1  
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 1  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 20:32:44.735302 
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."username" = dejavy1  LIMIT 1 
+ 
+INSERT INTO "auth_user" ("username", "first_name", "last_name", "email", "password", "is_staff", "is_active", "is_superuser", "last_login", "date_joined") VALUES (dejavy1, , , dejavy@inbox.ru, sha1$6dc5c$734afc3d5e9fb62a9834a57b01b2df5932f4a83a, True, True, True, 2012-08-08 20:23:12, 2012-08-07 08:34:54) 
+ 
+SELECT "auth_user_groups"."id", "auth_user_groups"."user_id", "auth_user_groups"."group_id" FROM "auth_user_groups" WHERE "auth_user_groups"."user_id" = 3  
+ 
+SELECT "auth_user_user_permissions"."id", "auth_user_user_permissions"."user_id", "auth_user_user_permissions"."permission_id" FROM "auth_user_user_permissions" WHERE "auth_user_user_permissions"."user_id" = 3  
+ 
+2012-08-08 20:32:44.809221 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:32:44.764383 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 20:32:52.146063 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:32:51.907052 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT COUNT(*) FROM "auth_user" 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" ORDER BY "auth_user"."username" ASC 
+ 
+SELECT "auth_message"."id", "auth_message"."user_id", "auth_message"."message" FROM "auth_message" WHERE "auth_message"."user_id" = 1  
+ 
+2012-08-08 20:32:52.408651 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:32:52.345047 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+2012-08-08 20:39:49.320072 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:39:49.135422 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = dejavy  
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 1  
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 1  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 20:39:57.915358 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:39:57.633754 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = dejavy  
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 1  
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 1  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE ("auth_user"."username" = dejavy2  AND NOT ("auth_user"."id" = 1 )) LIMIT 1 
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 1  LIMIT 1 
+ 
+UPDATE "auth_user" SET "username" = dejavy2, "first_name" = , "last_name" = , "email" = dejavy@inbox.ru, "password" = sha1$6dc5c$734afc3d5e9fb62a9834a57b01b2df5932f4a83a, "is_staff" = True, "is_active" = True, "is_superuser" = True, "last_login" = 2012-08-08 20:23:12, "date_joined" = 2012-08-07 08:34:54 WHERE "auth_user"."id" = 1  
+ 
+SELECT "auth_user_groups"."id", "auth_user_groups"."user_id", "auth_user_groups"."group_id" FROM "auth_user_groups" WHERE "auth_user_groups"."user_id" = 1  
+ 
+SELECT "auth_user_user_permissions"."id", "auth_user_user_permissions"."user_id", "auth_user_user_permissions"."permission_id" FROM "auth_user_user_permissions" WHERE "auth_user_user_permissions"."user_id" = 1  
+ 
+2012-08-08 20:39:57.973206 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:39:57.932957 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 20:40:02.488404 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:40:02.240823 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT COUNT(*) FROM "auth_user" 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" ORDER BY "auth_user"."username" ASC 
+ 
+SELECT "auth_message"."id", "auth_message"."user_id", "auth_message"."message" FROM "auth_message" WHERE "auth_message"."user_id" = 1  
+ 
+2012-08-08 20:40:02.799593 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:40:02.729079 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+2012-08-08 20:40:11.792272 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:40:11.686370 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = dejavy2  
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 1  
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 1  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 20:40:19.032167 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:40:18.728159 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = dejavy2  
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 1  
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 1  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE ("auth_user"."username" = dejavy  AND NOT ("auth_user"."id" = 1 )) LIMIT 1 
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 1  LIMIT 1 
+ 
+UPDATE "auth_user" SET "username" = dejavy, "first_name" = , "last_name" = , "email" = dejavy@inbox.ru, "password" = sha1$6dc5c$734afc3d5e9fb62a9834a57b01b2df5932f4a83a, "is_staff" = True, "is_active" = True, "is_superuser" = True, "last_login" = 2012-08-08 20:23:12, "date_joined" = 2012-08-07 08:34:54 WHERE "auth_user"."id" = 1  
+ 
+SELECT "auth_user_groups"."id", "auth_user_groups"."user_id", "auth_user_groups"."group_id" FROM "auth_user_groups" WHERE "auth_user_groups"."user_id" = 1  
+ 
+SELECT "auth_user_user_permissions"."id", "auth_user_user_permissions"."user_id", "auth_user_user_permissions"."permission_id" FROM "auth_user_user_permissions" WHERE "auth_user_user_permissions"."user_id" = 1  
+ 
+2012-08-08 20:40:19.095287 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:40:19.049342 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 20:40:22.648615 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:40:22.316650 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT COUNT(*) FROM "auth_user" 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" ORDER BY "auth_user"."username" ASC 
+ 
+SELECT "auth_message"."id", "auth_message"."user_id", "auth_message"."message" FROM "auth_message" WHERE "auth_message"."user_id" = 1  
+ 
+2012-08-08 20:40:22.885846 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:40:22.845417 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+2012-08-08 20:41:08.726442 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  AND "django_session"."expire_date" > 2012-08-08 20:41:08.288591 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 11b0ae97b890568c2ccffacda6279218  
+ 
+DELETE FROM "django_session" WHERE "session_key" IN (11b0ae97b890568c2ccffacda6279218) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 21fa564200f449fe29631561acc87fc7  
+ 
+INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (21fa564200f449fe29631561acc87fc7, ZTY5YTI1N2U5YzY0OGM4ZDU2MDY0MTcyMjNiMDQ5OGY1ODA2MjI1ZDqAAn1xAS4=
+, 2012-08-22 20:41:08.474949) 
+ 
+2012-08-08 20:41:08.976334 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 21fa564200f449fe29631561acc87fc7  AND "django_session"."expire_date" > 2012-08-08 20:41:08.956239 ) 
+ 
+2012-08-08 20:41:09.076188 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 21fa564200f449fe29631561acc87fc7  AND "django_session"."expire_date" > 2012-08-08 20:41:09.023579 ) 
+ 
+SELECT "django_site"."id", "django_site"."domain", "django_site"."name" FROM "django_site" WHERE "django_site"."id" = 1  
+ 
+2012-08-08 20:41:20.045605 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lol  
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 21fa564200f449fe29631561acc87fc7  AND "django_session"."expire_date" > 2012-08-08 20:41:19.149333 ) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 74c8041689f69f5b3f22227927d7c71b  
+ 
+INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (74c8041689f69f5b3f22227927d7c71b, NWZiNjc4NTVlYWIxZmJjNmY1OGNhYjFkMDRhODE3ZTliMjkzODUzNzqAAn1xAVUKdGVzdGNvb2tp
+ZVUGd29ya2Vkcy4=
+, 2012-08-22 20:41:19.160430) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 21fa564200f449fe29631561acc87fc7  
+ 
+DELETE FROM "django_session" WHERE "session_key" IN (21fa564200f449fe29631561acc87fc7) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 2  LIMIT 1 
+ 
+UPDATE "auth_user" SET "username" = lol, "first_name" = , "last_name" = , "email" = , "password" = sha1$13dab$27488b626da0163554189fd02a21cd259e9c34f7, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-08 20:41:19.645618, "date_joined" = 2012-08-07 21:30:25.803289 WHERE "auth_user"."id" = 2  
+ 
+2012-08-08 20:41:20.391252 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 74c8041689f69f5b3f22227927d7c71b  AND "django_session"."expire_date" > 2012-08-08 20:41:20.334971 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 20:41:24.018121 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 74c8041689f69f5b3f22227927d7c71b  AND "django_session"."expire_date" > 2012-08-08 20:41:23.752736 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lol  
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 2  
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 2  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+2012-08-08 20:41:27.558690 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 74c8041689f69f5b3f22227927d7c71b  AND "django_session"."expire_date" > 2012-08-08 20:41:27.522073 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+2012-08-08 20:41:36.233424 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 74c8041689f69f5b3f22227927d7c71b  AND "django_session"."expire_date" > 2012-08-08 20:41:35.994485 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 2  LIMIT 1 
+ 
+UPDATE "auth_user" SET "username" = lol, "first_name" = , "last_name" = , "email" = , "password" = sha1$183ef$b5f8448b687d2d6efcecf3a24a17c5be44662c23, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-08 20:41:19.645618, "date_joined" = 2012-08-07 21:30:25.803289 WHERE "auth_user"."id" = 2  
+ 
+2012-08-08 20:41:36.306256 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 74c8041689f69f5b3f22227927d7c71b  AND "django_session"."expire_date" > 2012-08-08 20:41:36.258290 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 20:41:40.967375 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 74c8041689f69f5b3f22227927d7c71b  AND "django_session"."expire_date" > 2012-08-08 20:41:40.595179 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 74c8041689f69f5b3f22227927d7c71b  
+ 
+DELETE FROM "django_session" WHERE "session_key" IN (74c8041689f69f5b3f22227927d7c71b) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 073233f5db15b421324e2a6ee8619151  
+ 
+INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (073233f5db15b421324e2a6ee8619151, ZTY5YTI1N2U5YzY0OGM4ZDU2MDY0MTcyMjNiMDQ5OGY1ODA2MjI1ZDqAAn1xAS4=
+, 2012-08-22 20:41:40.831640) 
+ 
+2012-08-08 20:41:41.250135 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 073233f5db15b421324e2a6ee8619151  AND "django_session"."expire_date" > 2012-08-08 20:41:41.235171 ) 
+ 
+2012-08-08 20:41:41.298781 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 073233f5db15b421324e2a6ee8619151  AND "django_session"."expire_date" > 2012-08-08 20:41:41.267396 ) 
+ 
+2012-08-08 20:41:50.623486 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lol  
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 073233f5db15b421324e2a6ee8619151  AND "django_session"."expire_date" > 2012-08-08 20:41:49.911069 ) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 43e3b7a107d465cd215051ce71a90c36  
+ 
+INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (43e3b7a107d465cd215051ce71a90c36, NWZiNjc4NTVlYWIxZmJjNmY1OGNhYjFkMDRhODE3ZTliMjkzODUzNzqAAn1xAVUKdGVzdGNvb2tp
+ZVUGd29ya2Vkcy4=
+, 2012-08-22 20:41:49.923972) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 073233f5db15b421324e2a6ee8619151  
+ 
+DELETE FROM "django_session" WHERE "session_key" IN (073233f5db15b421324e2a6ee8619151) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 2  LIMIT 1 
+ 
+UPDATE "auth_user" SET "username" = lol, "first_name" = , "last_name" = , "email" = , "password" = sha1$183ef$b5f8448b687d2d6efcecf3a24a17c5be44662c23, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-08 20:41:50.427310, "date_joined" = 2012-08-07 21:30:25.803289 WHERE "auth_user"."id" = 2  
+ 
+2012-08-08 20:41:50.870290 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 43e3b7a107d465cd215051ce71a90c36  AND "django_session"."expire_date" > 2012-08-08 20:41:50.828715 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 20:41:58.519184 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 43e3b7a107d465cd215051ce71a90c36  AND "django_session"."expire_date" > 2012-08-08 20:41:58.128680 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 43e3b7a107d465cd215051ce71a90c36  
+ 
+DELETE FROM "django_session" WHERE "session_key" IN (43e3b7a107d465cd215051ce71a90c36) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = cbe27f5be6ef8f50ec2e9244611ab890  
+ 
+INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (cbe27f5be6ef8f50ec2e9244611ab890, ZTY5YTI1N2U5YzY0OGM4ZDU2MDY0MTcyMjNiMDQ5OGY1ODA2MjI1ZDqAAn1xAS4=
+, 2012-08-22 20:41:58.323664) 
+ 
+2012-08-08 20:41:59.006763 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = cbe27f5be6ef8f50ec2e9244611ab890  AND "django_session"."expire_date" > 2012-08-08 20:41:58.993878 ) 
+ 
+2012-08-08 20:41:59.065272 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = cbe27f5be6ef8f50ec2e9244611ab890  AND "django_session"."expire_date" > 2012-08-08 20:41:59.031930 ) 
+ 
+2012-08-08 20:42:07.836099 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lol  
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = cbe27f5be6ef8f50ec2e9244611ab890  AND "django_session"."expire_date" > 2012-08-08 20:42:07.817012 ) 
+ 
+2012-08-08 20:42:16.936211 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = lol  
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = cbe27f5be6ef8f50ec2e9244611ab890  AND "django_session"."expire_date" > 2012-08-08 20:42:16.255748 ) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 44d9bd1c035eaf6daf28b33f13187d60  
+ 
+INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (44d9bd1c035eaf6daf28b33f13187d60, NWZiNjc4NTVlYWIxZmJjNmY1OGNhYjFkMDRhODE3ZTliMjkzODUzNzqAAn1xAVUKdGVzdGNvb2tp
+ZVUGd29ya2Vkcy4=
+, 2012-08-22 20:42:16.264628) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = cbe27f5be6ef8f50ec2e9244611ab890  
+ 
+DELETE FROM "django_session" WHERE "session_key" IN (cbe27f5be6ef8f50ec2e9244611ab890) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 2  LIMIT 1 
+ 
+UPDATE "auth_user" SET "username" = lol, "first_name" = , "last_name" = , "email" = , "password" = sha1$183ef$b5f8448b687d2d6efcecf3a24a17c5be44662c23, "is_staff" = False, "is_active" = True, "is_superuser" = False, "last_login" = 2012-08-08 20:42:16.674191, "date_joined" = 2012-08-07 21:30:25.803289 WHERE "auth_user"."id" = 2  
+ 
+2012-08-08 20:42:17.249409 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 44d9bd1c035eaf6daf28b33f13187d60  AND "django_session"."expire_date" > 2012-08-08 20:42:17.159397 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "root_users"."id", "root_users"."first_name", "root_users"."last_name", "root_users"."creation_date", "root_users"."birth_date", "root_users"."biography", "root_users"."contacts" FROM "root_users" 
+ 
+2012-08-08 20:42:23.032956 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 44d9bd1c035eaf6daf28b33f13187d60  AND "django_session"."expire_date" > 2012-08-08 20:42:22.938531 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "auth_message"."id", "auth_message"."user_id", "auth_message"."message" FROM "auth_message" WHERE "auth_message"."user_id" = 2  
+ 
+2012-08-08 20:42:29.029775 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 44d9bd1c035eaf6daf28b33f13187d60  AND "django_session"."expire_date" > 2012-08-08 20:42:28.264208 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 2  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = dejavy  
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 44d9bd1c035eaf6daf28b33f13187d60  
+ 
+DELETE FROM "django_session" WHERE "session_key" IN (44d9bd1c035eaf6daf28b33f13187d60) 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE "django_session"."session_key" = 3cb34aa235feb2937b95e2efbd80d773  
+ 
+INSERT INTO "django_session" ("session_key", "session_data", "expire_date") VALUES (3cb34aa235feb2937b95e2efbd80d773, ZTY5YTI1N2U5YzY0OGM4ZDU2MDY0MTcyMjNiMDQ5OGY1ODA2MjI1ZDqAAn1xAS4=
+, 2012-08-22 20:42:28.530670) 
+ 
+SELECT (1) AS "a" FROM "auth_user" WHERE "auth_user"."id" = 1  LIMIT 1 
+ 
+UPDATE "auth_user" SET "username" = dejavy, "first_name" = , "last_name" = , "email" = dejavy@inbox.ru, "password" = sha1$6dc5c$734afc3d5e9fb62a9834a57b01b2df5932f4a83a, "is_staff" = True, "is_active" = True, "is_superuser" = True, "last_login" = 2012-08-08 20:42:28.760290, "date_joined" = 2012-08-07 08:34:54 WHERE "auth_user"."id" = 1  
+ 
+2012-08-08 20:42:29.645654 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 3cb34aa235feb2937b95e2efbd80d773  AND "django_session"."expire_date" > 2012-08-08 20:42:29.292038 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT COUNT(*) FROM "auth_user" 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" ORDER BY "auth_user"."username" ASC 
+ 
+SELECT "auth_message"."id", "auth_message"."user_id", "auth_message"."message" FROM "auth_message" WHERE "auth_message"."user_id" = 1  
+ 
+2012-08-08 20:42:29.913945 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 3cb34aa235feb2937b95e2efbd80d773  AND "django_session"."expire_date" > 2012-08-08 20:42:29.868462 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+2012-08-08 20:42:33.428565 
+ 
+SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 3cb34aa235feb2937b95e2efbd80d773  AND "django_session"."expire_date" > 2012-08-08 20:42:33.321573 ) 
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1  
+ 
+SELECT "auth_user"."id", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."password", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."is_superuser", "auth_user"."last_login", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = dejavy  
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE "auth_user_groups"."user_id" = 1  
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "auth_user_user_permissions" ON ("auth_permission"."id" = "auth_user_user_permissions"."permission_id") INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_user_user_permissions"."user_id" = 1  ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 
+SELECT "auth_group"."id", "auth_group"."name" FROM "auth_group" 
+ 
+SELECT "auth_permission"."id", "auth_permission"."name", "auth_permission"."content_type_id", "auth_permission"."codename", "django_content_type"."id", "django_content_type"."name", "django_content_type"."app_label", "django_content_type"."model" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC 
+ 

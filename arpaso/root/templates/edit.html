@@ -1,9 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 
-{{settings.DATABASES}}<p/>
-{{settings.INSTALLED_APPS}}<p/>
-{{settings.DEBUG}}<p/>
+{% editform.as_p %}
 
 <p><a href="/" class="btn small primary">Home</a></p>
 {% endblock %}
