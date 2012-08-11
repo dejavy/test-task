@@ -3,6 +3,7 @@ from django.contrib.auth.forms import UserChangeForm
 from django.forms import ModelForm
 from django import forms
 from .models import Users, User, UserProfile
+from .widgets import CalendarWidget
 
 class CustomUserChangeForm(UserChangeForm):
     class Meta:
@@ -20,3 +21,5 @@ class UserProfileForm(ModelForm):
 
     def __init__(self, *args, **kwargs):
         super(UserProfileForm, self).__init__(*args, **kwargs)
+
+        self.fields['birth_date'].widget = CalendarWidget()

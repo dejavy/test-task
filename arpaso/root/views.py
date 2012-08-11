@@ -32,7 +32,6 @@ def password(request, template='registration/change_pass.html'):
             form.save()
             return HttpResponseRedirect("/")
     else:
-        print request.user
         form = PasswordChangeForm(request.user)
     return TemplateResponse(request, template, {'form': form,})
 
@@ -52,9 +51,6 @@ def edit(request, template='registration/change_prof.html'):
         userprofile = UserProfile.objects.get(user=request.user)
         form = CustomUserChangeForm(instance=user)
         form1 = UserProfileForm(instance=userprofile)
-        print userprofile.user
-        print userprofile.biography
-        print form1
     return TemplateResponse(request, template, {'form': form, 'form1':form1})
 
 def registration(request, template='registration/register.html'):
