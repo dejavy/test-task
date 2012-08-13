@@ -95,6 +95,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'arpaso.root',
     'south',
+    'root.templatetags',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )

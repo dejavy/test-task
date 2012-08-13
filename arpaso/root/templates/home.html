@@ -2,6 +2,9 @@
 {% block content %}
 <div class="home_text">
 
+{% load poll_extras %}
+<p>The time is {% current_time "%Y-%m-%d %I:%M %p" %}.</p>
+
 
 
 {% for users in usershtml %}
