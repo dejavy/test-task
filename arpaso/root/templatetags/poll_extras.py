@@ -1,5 +1,11 @@
 #coding: utf8
 from django import template
+from django.core.urlresolvers import reverse
+from django.core import urlresolvers
+from django.contrib.contenttypes.models import ContentType
+
+from arpaso.root.models import Users
+
 import datetime
 
 register = template.Library()
@@ -20,3 +26,26 @@ class CurrentTimeNode(template.Node):
         self.format_string = format_string
     def render(self, context):
         return datetime.datetime.now().strftime(self.format_string)
+
+
+@register.tag
+def edit_url(parser, token):
+    token = token.split_contents()
+    obj = token.pop(1)
+    return RenderEditUrl(obj)
+
+class RenderEditUrl(template.Node):
+    def __init__(self, obj):
+        self.obj = template.Variable(obj)
+
+    def render(self, context):
+        obj = self.obj.resolve(context)
+        print obj.id
+        path = reverse('admin:%s_%s_change' % (obj._meta.app_label, obj._meta.module_name), args=(obj.id,))
+        return u'<a href="%s">%s</a>' % (path, obj)
+
+@register.simple_tag
+def get_edit_link(context):
+    obj = ContentType.objects.get_for_model(context.__class__)
+    url_edit = urlresolvers.reverse("admin:%s_%s_change" % (obj.app_label, obj.model), args=(context.id,))
+    return u'<a href="%s">%s</a>' % (url_edit, context)

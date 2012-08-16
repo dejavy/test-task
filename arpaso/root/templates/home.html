@@ -6,13 +6,14 @@
 <p>The time is {% current_time "%Y-%m-%d %I:%M %p" %}.</p>
 
 
-
 {% for users in usershtml %}
     <p>{{ users.full_name }}</p>
     <p>{{ users.last_name }}</p>
     <p>{{ users.birth_date }}</p>
     <p>{{ users.biography }}</p>
     <p>{{ users.contacts }}</p>
+    <p>{% edit_url users %}</p>
+    <p>{% get_edit_link users %}</p>
     <p></p>
 	<p></p>
 
