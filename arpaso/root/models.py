@@ -40,3 +40,31 @@ def user_post_save(sender, instance, **kwargs):
 
 models.signals.post_delete.connect(user_post_delete, sender=User)
 models.signals.post_save.connect(user_post_save, sender=User)
+
+class BdLog(models.Model):
+    creation_date = models.DateTimeField(auto_now_add=True)
+    model_name = models.CharField(max_length=50, blank=True, null=True)
+    action = models.CharField(max_length=50, blank=True, null=True)
+
+    def  __unicode__(self):
+        return '%s' % (self.model_name)
+
+def db_deletes(sender, instance, **kwargs):
+    log_unit = BdLog()
+    log_unit.model_name = sender
+    log_unit.action = 'delete'
+    log_unit.save()
+
+def db_changes(sender, instance, created, **kwargs):
+    log_unit = BdLog()
+    log_unit.model_name = sender.__name__
+    if created:
+        log_unit.action = 'add'
+    else:
+        log_unit.action = 'changed'
+    log_unit.save()
+
+models.signals.post_save.connect(db_changes, sender=User)
+models.signals.post_save.connect(db_changes, sender=Users)
+models.signals.post_delete.connect(db_deletes, sender=User)
+models.signals.post_delete.connect(db_deletes, sender=Users)

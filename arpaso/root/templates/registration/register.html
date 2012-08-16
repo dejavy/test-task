@@ -8,7 +8,7 @@
 <form action='.' method='post'>
     {% csrf_token %}
     {{ form.as_p }}
-    <input type="submit" value="Create the account">
+    <input type="submit" value="Submit">
     <p><a href="{% url home %}" class="btn small primary">Home</a></p>
 </form>
 
