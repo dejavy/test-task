@@ -30,6 +30,7 @@ git reset --hard                                        Сброс мастер 
     cd /my/projects/folder/
     git clone ssh://77.122.171.50/var/www/django-project/medpromkapital
 ******git commit******
+git rm -r --cached ./\*.pyc
 на ноуте с сервака
 git add ./                                              Добавить весь проэкт
 git commit -m "..."                                     Коментарий
