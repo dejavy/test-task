@@ -13,6 +13,8 @@ class CustomUserChangeForm(UserChangeForm):
     def __init__(self, *args, **kwargs):
         super(CustomUserChangeForm, self).__init__(*args, **kwargs)
 
+CustomUserChangeForm.base_fields.keyOrder.reverse()
+
 class UserProfileForm(ModelForm):
     class Meta:
         model = UserProfile

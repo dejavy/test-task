@@ -5,7 +5,6 @@
 {% load poll_extras %}
 <p>The time is {% current_time "%Y-%m-%d %I:%M %p" %}.</p>
 
-
 {% for users in usershtml %}
     <p>{{ users.full_name }}</p>
     <p>{{ users.last_name }}</p>
@@ -16,9 +15,8 @@
     <p>{% get_edit_link users %}</p>
     <p></p>
 	<p></p>
-
-</div>
 {% endfor %}
+</div>
 <a href="settings/" class="btn small primary">View setting</a>
 <a href="accounts/logout/" class="btn small primary">Exit</a>
 <a href="edit/" class="btn small primary">Edit</a>
